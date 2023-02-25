@@ -1,0 +1,546 @@
+@font-face {
+  font-family: helicit-level1;
+  src: url("../fonts/HelveticaNeue\ Light.ttf");
+}
+@font-face {
+  font-family: helicit-level2;
+  src: url("../fonts/HelveticaNeue\ Medium.ttf");
+}
+@font-face {
+  font-family: helicit-level3;
+  src: url("../fonts/Helvetica\ Neu\ Bold.ttf");
+}
+
+nav {
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: relative;
+  font-family: helicit-level1;
+}
+.header-1 a {
+  font-family: helicit-level3;
+  color: black;
+  font-size: 30px;
+}
+.header-1 span {
+  color: #36794f;
+  font-size: 30px;
+}
+.header-2 a {
+  cursor: pointer;
+}
+.header-1 {
+  width: 220px;
+}
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div {
+  width: 300px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-2 {
+  width: 600px;
+  margin-left: 320px;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-family: helicit-level2;
+  cursor: pointer;
+}
+.header-2 a {
+  font-size: 18px;
+  font-family: helicit-level2;
+  color: black;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/* Styling for HOME page  */
+
+.main-container {
+  width: 90%;
+  height: 200rem;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+
+.main-section1 {
+  width: 100%;
+  height: 40rem;
+  margin-left: 11px;
+  display: flex;
+  position: relative;
+}
+.section1-pic {
+  width: 45%;
+  height: 100%;
+}
+.section1-main {
+  width: 55%;
+  height: 100%;
+  position: relative;
+}
+.section1-image {
+  position: absolute;
+  bottom: 130px;
+}
+
+.section1-main-1 {
+  width: 100%;
+  height: 30%;
+  padding-top: 30px;
+  position: relative;
+}
+.section1-main h1 {
+  margin-bottom: 30px;
+  width: 450px;
+  font-size: 44px;
+  font-family: helicit-level3;
+}
+.section1-main p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 400px;
+  font-size: 20px;
+  font-family: helicit-level1;
+}
+.section1-main-2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+.section1-main-2 button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #01601b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: helicit-level2;
+  cursor: pointer;
+}
+.social-icons {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  right: 20px;
+}
+.main-section2 {
+  width: 100%;
+  height: 50rem;
+  margin-top: 200px;
+}
+
+.section2-wrapper {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.section2-box {
+  width: 368px;
+  height: 320px;
+  position: relative;
+}
+.section2-foot {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 150px;
+  background-color: rgba(54, 121, 79, 0.55);
+  border-radius: 10px;
+  position: absolute;
+  top: 280px;
+}
+.section2-foot p {
+  font-family: helicit-level2;
+  color: #ffffff;
+  font-size: 18px;
+}
+.box-btn {
+  position: absolute;
+  top: 200px;
+  right: 69px;
+  width: 216px;
+  height: 50px;
+  opacity: 0;
+  transition: 2s;
+  color: #0f6845;
+  font-family: helicit-level2;
+  cursor: pointer;
+}
+.section2-seemore {
+  float: right;
+  margin-right: 30px;
+  font-size: 18px;
+  font-family: helicit-level2;
+  color: #01601b;
+}
+
+.main-section2 h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: helicit-level3;
+}
+
+.section2-box:hover .box-btn {
+  opacity: 1;
+}
+.section2-box:hover .section2-foot {
+  background-color: #36794f;
+}
+.section2-box:hover .section2-images {
+  background-color: #d9d9d9;
+  opacity: 0.7;
+}
+
+.section2-images {
+  position: relative;
+}
+
+.main-section3 {
+  width: 100%;
+  height: 40rem;
+}
+.main-section3 h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-family: helicit-level3;
+}
+.section3-side1 {
+  width: 50%;
+  height: 100%;
+}
+.section3-side2 {
+  width: 50%;
+  height: 100%;
+}
+.section3-box {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  gap: 35px;
+}
+.section3-image {
+  width: 100%;
+}
+.section3-side1 h5 {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-family: helicit-level3;
+}
+
+.section3-side2 h5 {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-family: helicit-level3;
+}
+.section3-side2 p {
+  font-size: 18px;
+  font-family: helicit-level1;
+}
+.section3-side1 p {
+  font-family: helicit-level1;
+
+  font-size: 18px;
+}
+
+.main-section4 {
+  width: 100%;
+  height: 35rem;
+  margin-top: 120px;
+  display: flex;
+}
+.section4-side2 h3 {
+  font-size: 36px;
+  font-family: helicit-level3;
+}
+.section4-side1 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.section4-side2 {
+  width: 50%;
+  height: 100%;
+}
+.section4-img {
+  width: 100%;
+  position: relative;
+}
+.section4-box {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.section4-box-child {
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  right: 120px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+.section4-box-child p {
+  line-height: 30px;
+  font-size: 20px;
+  font-family: helicit-level2;
+}
+
+/* Styling for Cotnact us page  */
+
+.contact-wrapper {
+  width: 100%;
+  height: 105rem;
+}
+
+.contact-floor1 {
+  margin-top: 180px;
+  width: 98.5%;
+  margin-left: 10px;
+  height: 40rem;
+  background-image: url("../images/contactuspics/image1.png");
+  padding-top: 50px;
+}
+.contact-box {
+  width: 95%;
+  height: 95%;
+  margin-left: 33px;
+  background-color: rgba(1, 96, 27, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-box h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: helicit-level2;
+  color: white;
+}
+.contact-box-floor1 {
+  width: 90%;
+  height: 18%;
+  display: flex;
+  margin-top: 50px;
+}
+.logo-box {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.logo-box address {
+  font-size: 26px;
+  font-family: helicit-level1;
+  color: white;
+}
+.floor2-box label {
+  font-size: 16px;
+  font-family: helicit-level1;
+  color: white;
+}
+.contact-box-floor2 {
+  width: 50%;
+  height: 60%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  padding-left: 70px;
+}
+
+.floor2-box {
+  width: 70%;
+  display: flex;
+  height: 70px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floor2-box input,
+label {
+  display: block;
+}
+.floor2-box input {
+  height: 30px;
+  border-radius: 12px;
+  border: none;
+}
+.floor2-box:nth-child(5) {
+  width: 170%;
+  height: 150px;
+}
+.floor2-box:nth-child(5) input {
+  height: 100%;
+}
+.contact-floor2 {
+  width: 100%;
+  height: 45rem;
+}
+.contact-floor2 h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-family: helicit-level3;
+  color: black;
+
+}
+.map {
+  margin-left: 300px;
+}
+
+/* Styling for footer */
+
+.footer-container {
+  width: 100%;
+  height: 500px;
+  background-color: #255338;
+}
+
+.footer-floor1 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.footer-side-1 {
+  width: 50%;
+  height: 100%;
+}
+.footer-side-1-heading {
+  width: 90%;
+  height: 30%;
+  margin-top: 10%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-side-1-heading h2 {
+  font-size: 30px;
+  font-family: helicit-level2;
+}
+.footer-side-1-heading p {
+  font-size: 18px;
+  font-family: helicit-level1;
+}
+.footer-side-1-footer {
+  width: 90%;
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.footer-side-1-footer input {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  background-color: #255338;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-family: helicit-level1;
+}
+.footer-inp::placeholder {
+  padding-left: 15px;
+  color: white;
+}
+.footer-image-container {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-img {
+  width: 30px;
+  height: 30px;
+}
+.email-sender {
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  top: 19px;
+  left: 280px;
+}
+.footer-side-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.footer-side-2 div {
+  width: 33%;
+  height: 50%;
+}
+
+.footer-floor2 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid white;
+}
+.footer-floor2 a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: wheat;
+  font-family: helicit-level1;
+}
+.footer-floor2 a:nth-child(3) {
+  margin-right: 60px;
+}
+
+footer li,
+h3 {
+  list-style: none;
+  text-align: center;
+}
+footer h3 {
+  margin-bottom: 17px;
+  margin-top: 37px;
+  font-size: 18px;
+  font-family: helicit-level3;
+}
+footer li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: helicit-level1;
+}
+footer {
+  color: #ffffff;
+}
